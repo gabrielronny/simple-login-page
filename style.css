@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-in-primary: #4F4FED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+a { text-decoration: none }
+
+/* MENU */
+.menu {
+  width: 100%;
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu img {
+  width: 150px;
+}
+
+.menu .logo {
+  position: relative;
+  font-size: 18px;
+  left: 25px;
+  font-weight: 700;
+}
+
+.menu p {
+  width: 300px;
+}
+.menu p a {
+  color: var(--color-in-primary);
+  font-weight: 700;
+}
+
+/* FORM */
+
+.container-form {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-form .content-form {
+  margin-top: 25px;
+}
+
+.form-login {
+  position: relative;
+  width: 500px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login label {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.form-login label a { 
+  font-size: 14px;
+  color: #D4D7DB;
+
+}
+ 
+.form-login .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login .input-group:nth-child(n+2){
+  margin-top: 10px;
+}
+
+.form-login .input-group input {
+  width: 320px;
+  height: 35px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+  border: 1px solid #dcdfe2;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  width: 320px;
+  height: 35px;
+  margin-top: 25px;
+
+  background: var(--color-in-primary);
+  border: 1px solid #4F4FED;
+  border-radius: 5px;
+
+  color: #FFF;
+  transition: .3s;
+}
+
+.btn-submit:hover {
+  background: #4141d1;
+
+  cursor: pointer;
+}
+
+.sp-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #4F4FED;
+}
