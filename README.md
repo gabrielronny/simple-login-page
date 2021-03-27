@@ -1,3 +1,3 @@
 # simple-login-page
 
-[](page-screenshot.png)
+![](page-screenshot.png)
